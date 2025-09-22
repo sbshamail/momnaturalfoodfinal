@@ -3,8 +3,6 @@ import React from "react";
 import { Button } from "../ui/button";
 import { Leaf } from "lucide-react";
 import { Screen } from "@/@core/layout";
-import { Separator } from "../ui/separator";
-
 const Header = () => {
   return (
     <header
