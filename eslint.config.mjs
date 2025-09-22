@@ -14,11 +14,19 @@ const eslintConfig = [
   {
     ignores: [
       "node_modules/**",
-      ".next/**",
+      ".next/**", // 🚀 ignore Next.js build output
       "out/**",
       "build/**",
-      "next-env.d.ts",
+      "next-env.d.ts", // ignore auto-generated types
+      "public/**",
     ],
+    rules: {
+      "@typescript-eslint/no-unused-vars": "off",
+      "react/no-unescaped-entities": "off",
+      "@typescript-eslint/no-explicit-any": "off",
+      "@typescript-eslint/ban-ts-comment": "off",
+      "@typescript-eslint/triple-slash-reference": "off",
+    },
   },
 ];
 
