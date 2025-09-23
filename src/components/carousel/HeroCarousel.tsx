@@ -12,18 +12,19 @@ import { Leaf } from "lucide-react";
 
 const images = [
   {
-    url: "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800",
+    url: "/assets/hero1.jpg",
     label: "100% Organic",
   },
   {
-    url: "https://images.pexels.com/photos/143133/pexels-photo-143133.jpeg?auto=compress&cs=tinysrgb&w=800",
+    url: "/assets/hero2.jpg",
     label: "Farm Fresh",
   },
   {
-    url: "https://images.pexels.com/photos/1300972/pexels-photo-1300972.jpeg?auto=compress&cs=tinysrgb&w=800",
+    url: "/assets/hero3.jpg",
     label: "Natural Goodness",
   },
 ];
+
 
 export function HeroCarousel() {
   return (

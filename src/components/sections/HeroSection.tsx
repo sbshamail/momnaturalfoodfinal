@@ -11,11 +11,12 @@ const HeroSection = () => {
   return (
     <div>
       <section className="relative pb-20 overflow-hidden ">
-        <div className="[clip-path:polygon(100%_1%,100%_100%,75%_94%,49%_100%,24%_94%,0_100%,4%_79%,0_56%,6%_27%,0_0,100%_0)] absolute inset-0 bg-gradient-to-r from-primary/20 to-black"></div>
+        <div className="[clip-path:polygon(100%_1%,100%_100%,75%_94%,49%_100%,24%_94%,0_100%,4%_79%,0_56%,6%_27%,0_0,100%_0)] absolute inset-0 bg-gradient-to-r from-primary/20 to-yellow-200"></div>
 
         <div className="absolute top-10 left-10 w-20 h-20 bg-green-300/30 rounded-full blur-xl animate-pulse"></div>
         <div className="absolute bottom-20 right-20 w-32 h-32 bg-emerald-300/20 rounded-full blur-2xl animate-pulse delay-1000"></div>
         <Header />
+        
         <div className="mt-10 mx-auto px-4 relative z-10">
           <Screen>
             <div className="grid lg:grid-cols-2 gap-12 items-center">

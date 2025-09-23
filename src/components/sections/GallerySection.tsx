@@ -59,7 +59,7 @@ const galleryItems = [
 export function GallerySection() {
   return (
     <section
-      className="bg-[#b0bb5b] py-24 bg-gradient-to-b from-background to-muted/20 relative overflow-hidden"
+      className=" relative overflow-hidden"
       style={{ clipPath: "ellipse(59% 76% at 60% 49%)" }}
     >
       {/* Background decoration */}
