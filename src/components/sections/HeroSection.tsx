@@ -1,8 +1,6 @@
-"use client";
-import React, { useEffect, useRef, useState } from "react";
+import React from "react";
 import { Button } from "../ui/button";
-import { Heart, Leaf, Sparkles } from "lucide-react";
-import { Badge } from "../ui/badge";
+import { Heart, Sparkles } from "lucide-react";
 import Header from "../layout/Header";
 import { Screen } from "@/@core/layout";
 import { HeroCarousel } from "../carousel/HeroCarousel";
@@ -16,7 +14,7 @@ const HeroSection = () => {
         <div className="absolute top-10 left-10 w-20 h-20 bg-green-300/30 rounded-full blur-xl animate-pulse"></div>
         <div className="absolute bottom-20 right-20 w-32 h-32 bg-emerald-300/20 rounded-full blur-2xl animate-pulse delay-1000"></div>
         <Header />
-        
+
         <div className="mt-10 mx-auto px-4 relative z-10">
           <Screen>
             <div className="grid lg:grid-cols-2 gap-12 items-center">
