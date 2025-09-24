@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 import { Mail, Phone, MapPin } from "lucide-react";
 import React from "react";
-import Header from "./layout/Header";
+import Header from "../layout/Header";
 
 const ContactForm = () => {
   return (

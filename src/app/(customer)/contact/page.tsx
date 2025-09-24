@@ -1,5 +1,5 @@
 "use client";
-import ContactForm from "@/components/ContactForm";
+import ContactForm from "@/components/pages/ContactForm";
 
 export default function ContactPage() {
   return (
