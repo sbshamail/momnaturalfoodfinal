@@ -12,7 +12,10 @@ export default function Home() {
       <DescriptionBanner />
       <FeatureTags />
       <GallerySection />
+      <div id="recipes">
+    
       <RecipieFeature />
+    </div>
     </div>
   );
 }

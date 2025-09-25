@@ -1,5 +1,5 @@
 "use client";
-import LoginForm from "@/components/pages/LoginForm";
+import LoginForm from "@/app/pages/LoginForm";
 import { useRouter } from "next/navigation";
 
 export default function LoginPage() {

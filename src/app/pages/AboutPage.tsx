@@ -3,13 +3,16 @@
 import { Screen } from "@/@core/layout";
 import Image from "next/image";
 import React from "react";
-import { Button } from "../ui/button";
+import { Button } from "../../components/ui/button";
 import { Leaf } from "lucide-react";
+import Header from "@/components/layout/Header";
 
 
 const AboutPage = () => {
   return (
+  
     <section className="relative bg-gradient-to-b from-yellow-100 via-green-50 to-white">
+        <Header />
       <Screen>
         {/* TOP HERO */}
         <div className="flex flex-col md:flex-row items-center justify-between py-20 gap-10 ">

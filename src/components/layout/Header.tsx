@@ -9,8 +9,8 @@ const Header = () => {
   const pages = [
     { label: "Home", href: "/" },
     { label: "Products", href: "#" },
-    { label: "About", href: "about" },
-    { label: "Recipes", href: "#" },
+    { label: "About", href: "/about" },
+    { label: "Recipes", href: "/recipes" }, // Updated href
     { label: "Contact", href: "/contact" },
   ];
 
@@ -51,12 +51,12 @@ const Header = () => {
             </nav>
 
             {/* Register Button (replaces Explore) */}
-           <Link href="/login">
-  <Button className="bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
-    <Leaf className="h-4 w-4 mr-2" />
-    Register
-  </Button>
-</Link>
+            <Link href="/login">
+              <Button className="bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
+                <Leaf className="h-4 w-4 mr-2" />
+                Register
+              </Button>
+            </Link>
           </div>
         </div>
       </Screen>

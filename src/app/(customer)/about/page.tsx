@@ -1,5 +1,5 @@
 "use client";
-import AboutPage from "@/components/pages/AboutPage";
+import AboutPage from "@/app/pages/AboutPage";
 
 export default function AboutPageRoute() {
   

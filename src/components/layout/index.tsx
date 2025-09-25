@@ -12,7 +12,6 @@ const CustomerLayout = ({ children }: Props) => {
 
   return (
     <div>
-      {pathname !== "/" && pathname !== "/contact" && <Header />}
 
       {children}
       <Footer />

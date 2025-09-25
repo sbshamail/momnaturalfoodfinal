@@ -1,5 +1,5 @@
 "use client";
-import RegisterForm from "@/components/pages/RegistationForm";
+import RegisterForm from "@/app/pages/RegistationForm";
 import { useRouter } from "next/navigation";
 
 export default function RegisterPage() {
@@ -7,4 +7,4 @@ export default function RegisterPage() {
   return (
     <RegisterForm switchToLogin={() => router.push("/login")} />
   );
-}s
+};
