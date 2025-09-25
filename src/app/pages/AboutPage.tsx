@@ -7,12 +7,10 @@ import { Button } from "../../components/ui/button";
 import { Leaf } from "lucide-react";
 import Header from "@/components/layout/Header";
 
-
 const AboutPage = () => {
   return (
-  
     <section className="relative bg-gradient-to-b from-yellow-100 via-green-50 to-white">
-        <Header />
+      <Header />
       <Screen>
         {/* TOP HERO */}
         <div className="flex flex-col md:flex-row items-center justify-between py-20 gap-10 ">
@@ -22,15 +20,14 @@ const AboutPage = () => {
               About Us <br />
             </h1>
             <p className="text-lg text-gray-700 max-w-lg mx-auto md:mx-0">
-              Mom’s Natural Foods is all about honest, wholesome, and
-              nutritious granola — baked with love, honey, and extra virgin
-              olive oil.
+              Mom’s Natural Foods is all about honest, wholesome, and nutritious
+              granola — baked with love, honey, and extra virgin olive oil.
             </p>
             <div className="flex gap-4 justify-center md:justify-start">
               <Button className="bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
-              <Leaf className="h-4 w-4 mr-2" />
-              Explore All Products
-            </Button>
+                <Leaf className="h-4 w-4 mr-2" />
+                Explore All Products
+              </Button>
             </div>
           </div>
 
@@ -54,29 +51,30 @@ const AboutPage = () => {
         </div>
 
         {/* STORY SECTION */}
-       <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-12">
           {/* LEFT TEXT */}
           <div>
             <h2 className="text-4xl font-bold text-orange-700 mb-6">
               The Story
             </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
-              The journey of <span className="font-semibold">Mom’s Natural Foods</span> 
-              began in 2011 in the serene town of Bördübet, Marmaris. What started 
-              as a simple homemade recipe soon grew into a passion — baking crunchy, 
-              wholesome granola with honey and extra virgin olive oil for family 
-              and friends.
+              The journey of{" "}
+              <span className="font-semibold">Mom’s Natural Foods</span>
+              began in 2011 in the serene town of Bördübet, Marmaris. What
+              started as a simple homemade recipe soon grew into a passion —
+              baking crunchy, wholesome granola with honey and extra virgin
+              olive oil for family and friends.
             </p>
             <p className="text-gray-700 leading-relaxed mb-4">
-              The warm aroma quickly spread beyond our home. Friends, yoga instructors, 
-              athletes, and children all fell in love with this natural snack. Unlike 
-              store-bought cereals loaded with refined sugars, our granola was honest, 
-              healthy, and full of flavor.
+              The warm aroma quickly spread beyond our home. Friends, yoga
+              instructors, athletes, and children all fell in love with this
+              natural snack. Unlike store-bought cereals loaded with refined
+              sugars, our granola was honest, healthy, and full of flavor.
             </p>
             <p className="text-gray-700 leading-relaxed">
-              Inspired by our daughter’s love for “the crunchy food” and the encouragement 
-              of loved ones, we turned this family passion into a brand — one that brings 
-              health and joy to every home.
+              Inspired by our daughter’s love for “the crunchy food” and the
+              encouragement of loved ones, we turned this family passion into a
+              brand — one that brings health and joy to every home.
             </p>
           </div>
 
@@ -89,7 +87,6 @@ const AboutPage = () => {
               className="object-cover rounded-lg"
               priority
             />
-          
           </div>
         </div>
       </Screen>
