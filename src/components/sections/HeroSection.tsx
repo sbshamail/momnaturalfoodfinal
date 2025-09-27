@@ -4,6 +4,7 @@ import { Heart, Sparkles } from "lucide-react";
 import Header from "../layout/Header";
 import { Screen } from "@/@core/layout";
 import { HeroCarousel } from "../carousel/HeroCarousel";
+import { PhotoPortfolio } from "../PhotoPortfolio";
 
 const HeroSection = () => {
   return (
@@ -75,7 +76,8 @@ const HeroSection = () => {
               <div
                 className={`relative transition-all duration-1000 delay-500`}
               >
-                <HeroCarousel />
+                {/* <HeroCarousel /> */}
+               <PhotoPortfolio />
               </div>
             </div>
           </Screen>
